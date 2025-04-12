@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study in India - Courses</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Study in India</h1>
+      <p>Your gateway to world-class education</p>
+    </header>
+    <nav>
+      <a href="#courses">Courses</a>
+      <a href="#apply">Apply Now</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+      <h1>Explore Our Top Courses</h1>
+      <p>
+        Choose from the best programs offered by leading Indian institutions
+      </p>
+    </section>
+
+    <section id="courses" class="courses">
+      <div class="faculty-card">
+        <i class="fas fa-cogs"></i>
+        <h3>Faculty of Engineering and Technology</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Mechanical Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Chemical Engineering</li>
+            <li>Aerospace Engineering</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Engineering"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h3>Faculty of Diploma Studies</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Diploma in Engineering</li>
+            <li>Diploma in Technology</li>
+            <li>Diploma in Management</li>
+            <li>Diploma in Computer Applications</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Diploma"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-chart-line"></i>
+        <h3>Faculty of Management Studies</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Business Administration</li>
+            <li>Economics</li>
+            <li>Finance</li>
+            <li>Marketing</li>
+            <li>Human Resource Management</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Management"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Faculty of Computer Applications</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Computer Science</li>
+            <li>Information Technology</li>
+            <li>Software Engineering</li>
+            <li>Data Science</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
+        <a
+          href="#applicationForm"
+          class="btn-apply"
+          data-program="Computer Applications"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-flask"></i>
+        <h3>Faculty of Science</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Biology</li>
+            <li>Mathematics</li>
+            <li>Biotechnology</li>
+            <li>Microbiology</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Science"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-gavel"></i>
+        <h3>Faculty of Law</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Bachelor of Laws (LLB)</li>
+            <li>Master of Laws (LLM)</li>
+            <li>International Law</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Law"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-heartbeat"></i>
+        <h3>Faculty of Health Science</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Medicine</li>
+            <li>Nursing</li>
+            <li>Pharmacy</li>
+            <li>Physiotherapy</li>
+            <li>Public Health</li>
+          </ul>
+        </div>
+        <a
+          href="#applicationForm"
+          class="btn-apply"
+          data-program="Health Science"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card">
+        <i class="fas fa-palette"></i>
+        <h3>Faculty of Arts</h3>
+        <div class="courses-dropdown">
+          <ul>
+            <li>Fine Arts</li>
+            <li>Literature</li>
+            <li>Sociology</li>
+            <li>Philosophy</li>
+            <li>Languages</li>
+            <li>Psychology</li>
+            <li>Political Science</li>
+          </ul>
+        </div>
+        <a href="#applicationForm" class="btn-apply" data-program="Arts"
+          >Apply Now</a
+        >
+      </div>
+
+      <div class="faculty-card more-courses">
+        <i class="fas fa-th-large"></i>
+        <h3>More Courses</h3>
+        <p>
+          We offer many more specialized programs. Contact us to learn about
+          additional courses available.
+        </p>
+        <a href="#contact" class="btn-apply">Contact Us</a>
+      </div>
+    </section>
+
+    <section id="apply" class="application-section">
+      <h2>Application Form</h2>
+      <p class="form-intro">
+        Fill out the form below to apply for your preferred program
+      </p>
+
+      <form id="applicationForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required />
+            <span class="error-message"></span>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" required />
+            <span class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="program">Select Program:</label>
+            <select id="program" required>
+              <option value="">-- Select a program --</option>
+              <option value="Nursing">Nursing</option>
+              <option value="Economics">Economics</option>
+              <option value="Business Media">Business Media</option>
+              <option value="Public Administration">
+                Public Administration
+              </option>
+              <option value="Biotechnology">Biotechnology</option>
+              <option value="Pharmacy">Pharmacy</option>
+              <option value="Computer Science">Computer Science</option>
+              <option value="Microbiology">Microbiology</option>
+              <option value="Fine Arts">Fine Arts</option>
+              <option value="Law">Law</option>
+              <option value="Aerospace Engineering">
+                Aerospace Engineering
+              </option>
+              <option value="Mechanical Engineering">
+                Mechanical Engineering
+              </option>
+            </select>
+            <span class="error-message"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message"
+            >Why do you want to study in India? (Optional)</label
+          >
+          <textarea id="message" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="documents">Upload Documents (Optional):</label>
+          <input
+            type="file"
+            id="documents"
+            multiple
+            accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+          />
+          <p class="file-info">
+            Accepted formats: PDF, DOC, DOCX, JPG, PNG (Max 5MB each)
+          </p>
+        </div>
+
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="terms" required />
+          <label for="terms">I agree to the terms and conditions</label>
+          <span class="error-message"></span>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" id="submitButton">
+            <span class="btn-text">Submit Application</span>
+            <span class="btn-loader"></span>
+          </button>
+          <button type="button" id="resetButton" class="btn-secondary">
+            Reset Form
+          </button>
+        </div>
+      </form>
+
+      <div id="successMessage" class="success-message">
+        <i class="fas fa-check-circle"></i>
+        <h3>Application Submitted Successfully!</h3>
+        <p>Thank you for your interest. We will contact you shortly.</p>
+        <button id="resetForm" class="btn-secondary">
+          Submit Another Application
+        </button>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <p>Contact us: yetuniyetu@gmail.com | +91 7894731863</p>
+      <p>&copy; 2025 Study in India. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
